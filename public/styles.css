@@ -16,12 +16,13 @@ header {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-header h1 {
-  color: #fefefe;
+header h3 {
   font-family: "Poppins", cursive;
-  font-weight: 200;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 .add-btn{
   font-size: 1.5rem;
@@ -91,12 +92,9 @@ form button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
-  color: #fefefe;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 32px;
   box-shadow: 0 0 4px rgb(201, 200, 200);
   cursor: pointer;
   outline: none;
