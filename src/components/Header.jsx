@@ -3,17 +3,15 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <h3>
-        <svg
-          className="addBtn"
-          xmlns="http://www.w3.org/2000/svg"
-          width={20}
-          viewBox="0 0 448 512"
-        >
-          <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H290.7c17 0 33.3-6.7 45.3-18.7L429.3 368c12-12 18.7-28.3 18.7-45.3V96c0-35.3-28.7-64-64-64H64zm0 64H384V320H320c-17.7 0-32 14.3-32 32v64H64V96z" />
-        </svg>
-        Notes
-      </h3>
+      <div className="header-title">
+        <img
+          width={32}
+          height={32}
+          alt="icone notes"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAABmJLR0QA/wD/AP+gvaeTAAABzUlEQVRYhe3Wv0sCYRgH8O95KolT0mwK/QViBGJQKITUHIhTY6eLgbgULdFgSOAS/QMONdcgkuDglGtjOtQWUpP446ihI8R78O65fPWG+04vD+/xfu593+c4adxIwU5xLRswHQdkFAdkFDdZ7Y9QqqPaRrcH9Xue68kSQgFkoigk4PMQEyR92/dH2LtBqzNPhz6xMGoKVnQbQhxZqS5cA6DVwdUTUSdA1bZwjbbQM1EkQN2ecMpvXj+IIgGa7y2eEXIh27W97UD0d4jMxT5OduGVeQsMVZQbOHswO5+xQ7lttgaAV0YuzpjPAFWaGKps0FBFpcloE+JL7c6zV7Wc8fV0xXaX2gEZhdH2lwfI78BjotFGKsoNnJpu9ckwdkiJm9IA8MjIclrdIqjSxGBsauZgzGv1yThtbxQHZBRG27Pi96KYRDqC9VW4OG8tBOT3op7FZtDKs0KOrJi0qIGgHUpHtMHjC47v8P5FzDnawu0hcZpCdigY0AbKPU8jCiRL2uDtk6cRBZqR2RosGGSowSJBZjQgQX83YPEaGhQK6GsL0tCgTHRpGhpUSCAWXo6GBvk8qCk4T2Fj7b/3iasB+ce43Njuf8gBGcUBGeUHvuJvNgb3gX0AAAAASUVORK5CYII="
+        ></img>
+        <h3>Notes</h3>
+      </div>
     </header>
   );
 }

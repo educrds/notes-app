@@ -1,11 +1,13 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 html {
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background: #fcbf49;
   padding: 0 16px;
@@ -13,46 +15,51 @@ body {
 
 header {
   background-color: #fcbf49;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
   margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
   text-align: center;
 }
-header h3 {
-  font-family: "Poppins", cursive;
-  font-weight: 900;
-  font-size: 1.5rem;
+
+.header-title h3 {
   color: #003049;
-}
-.addBtn{
-  fill: #003049;
-}
-.add-btn{
+  font-family: "Poppins", cursive;
   font-size: 1.5rem;
+  padding: 0 5px;
 }
+
+.header-title {
+  display: inline-flex;
+  justify-content: center;
+}
+
 footer {
+  bottom: 0;
+  height: 2rem;
+  margin: auto -16px;
   position: absolute;
   text-align: center;
-  bottom: 0;
-  margin: auto -16px;
   width: 100%;
-  height: 2rem;
 }
+
 footer p {
   color: #003049;
 }
+
 .note {
-  background: #fefefe;
+  background: #f0f0f0;
   border-radius: 7px;
+  float: left;
+  margin: 16px;
   padding: 10px;
   width: 240px;
-  margin: 16px;
-  float: left;
 }
+
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
+
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
@@ -60,44 +67,57 @@ footer p {
   word-wrap: break-word;
 }
 
-.note button {
-  position: relative;
-  float: right;
-  margin-right: 5px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-.note img{
+.note img {
   width: 20px;
 }
+
+.add-note {
+  background-color: #003049;
+  color: #f0f0f0;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 40px;
+  width: 40px;
+}
+
 form {
+  background: #f0f0f0;
+  border-radius: 7px;
+  box-shadow: 0 0 4px rgb(196 195 195);
+  margin: 30px auto 20px;
+  padding: 15px;
   position: relative;
   width: 350px;
-  margin: 30px auto 20px auto;
-  background: #fefefe;
-  padding: 15px;
-  border-radius: 7px;
-  box-shadow: 0 0 4px rgb(196, 195, 195);
 }
+
 form input,
 form textarea {
-  width: 100%;
+  background: #f0f0f0;
   border: none;
-  padding: 4px;
-  outline: none;
-  font-size: 1.2em;
   font-family: inherit;
+  font-size: 1.2em;
+  outline: none;
+  padding: 4px;
   resize: none;
+  width: 100%;
 }
+
 form button {
-  position: absolute;
-  right: 18px;
-  bottom: -18px;
   border: none;
   border-radius: 50%;
-  width: 32px;
-  /* box-shadow: 0 0 4px rgb(201, 200, 200); */
+  bottom: -18px;
   cursor: pointer;
   outline: none;
+  position: absolute;
+  right: 18px;
+  width: 32px;
+}
+
+.note button {
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 5px;
+  outline: none;
+  position: relative;
 }
