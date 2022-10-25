@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fcbf49;
+  font-family: "Poppins", cursive;
+  padding: 0 16px;
+}
+
+header {
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+  margin: auto -16px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-title h3 {
+  color: #003049;
+  font-size: 1.5rem;
+  padding: 0 5px;
+}
+
+.header-title {
+  display: inline-flex;
+  justify-content: center;
+}
+
+footer {
+  bottom: 0;
+  height: 2rem;
+  margin: auto -16px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  color: #003049;
+}
+
+.note {
+  background: #f0f0f0;
+  border-radius: 7px;
+  float: left;
+  margin: 16px;
+  padding: 10px;
+  width: 240px;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note img {
+  width: 20px;
+}
+
+.add-note {
+  background-color: #003049;
+  color: #f0f0f0;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 40px;
+  width: 40px;
+}
+
+form {
+  background: #f0f0f0;
+  border-radius: 7px;
+  box-shadow: 0 0 4px rgb(196 195 195);
+  margin: 30px auto 20px;
+  padding: 15px;
+  position: relative;
+  width: 350px;
+}
+
+form input,
+form textarea {
+  background: #f0f0f0;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  outline: none;
+  padding: 4px;
+  resize: none;
+  width: 100%;
+}
+
+form button {
+  border: none;
+  border-radius: 50%;
+  bottom: -18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 18px;
+  width: 32px;
+}
+
+.note button {
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 5px;
+  outline: none;
+  position: relative;
+}
