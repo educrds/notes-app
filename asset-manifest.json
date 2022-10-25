@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/notesapp/static/js/main.cc21151d.js",
-    "index.html": "/notesapp/index.html",
-    "main.cc21151d.js.map": "/notesapp/static/js/main.cc21151d.js.map"
+    "main.js": "/notes-app/static/js/main.cc21151d.js",
+    "index.html": "/notes-app/index.html",
+    "main.cc21151d.js.map": "/notes-app/static/js/main.cc21151d.js.map"
   },
   "entrypoints": [
     "static/js/main.cc21151d.js"
